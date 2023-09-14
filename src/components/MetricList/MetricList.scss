@@ -1,0 +1,78 @@
+.metric-input-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+  width: 25%;
+  &:focus-within {
+    border: 3px solid var(--primary-color);
+  }
+}
+
+.metric-input {
+  outline: 0;
+  border: none;
+  width: 100%;
+  padding-left: 5px;
+}
+
+.metric-list {
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 20px;
+  max-height: 500px;
+  height: 500px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+.no-result {
+  width: 100%;
+  font-size: 50px;
+  height: 100%;
+}
+
+.metric-item {
+  background-color: #fafafa;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  border: 2px solid black;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  .metric-number {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  span {
+    margin-left: 5px;
+    font-weight: bold;
+  }
+
+  span.click {
+    color: var(--click-metric);
+  }
+
+  span.conversions {
+    color: var(--conversions-metric);
+  }
+
+  span.impressions {
+    color: var(--impressions-metric);
+  }
+
+  span.cost {
+    color: var(--cost-metric);
+  }
+}

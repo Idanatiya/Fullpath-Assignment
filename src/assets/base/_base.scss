@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #121432;
+  --secondary-color: #f6f8fe;
+  --text-primary: #191a36;
+  --click-metric: #6672fb;
+  --conversions-metric: #da71f2;
+  --impressions-metric: #fbac57;
+  --cost-metric: #24cc91;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.root-container {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: 60px 1fr;
+  height: 100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+}
