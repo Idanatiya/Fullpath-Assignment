@@ -5,9 +5,10 @@ The Project was to create a dashboard using metrics mock data
 I have used React + TS  + Chart.js
 
 To run the project:
+
 git clone
 
-npm I
+npm install
 
 npm run dev
 
