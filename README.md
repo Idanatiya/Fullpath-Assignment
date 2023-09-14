@@ -6,7 +6,9 @@ I have used React + TS  + Chart.js
 
 To run the project:
 git clone
+
 npm I
+
 npm run dev
 
 Check the app live!:
