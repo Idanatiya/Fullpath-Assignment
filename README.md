@@ -4,6 +4,11 @@
 The Project was to create a dashboard using metrics mock data
 I have used React + TS  + Chart.js
 
+To run the project:
+git clone
+npm I
+npm run dev
+
 Check the app live!:
 https://6502682abc538d7d239c06e7--darling-daifuku-547512.netlify.app/
 
